@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     if (empty($_POST['fname'])) {
-        $fnameErr = 'Name is Required';
+        $fnameErr = 'Father Name is Required';
     } else {
         $fname = testInput($_POST['fname']);
         if (!preg_match("/^[a-zA-Z-' ]*$/", $fname)) {
@@ -66,7 +66,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 if ($_SERVER["REQUEST_METHOD"] == "POST" && $nameErr == "" && $fnameErr == "" && $emailErr == "" && $passwordErr == "" && $stateErr == "") {
 
-    session_start();
     $_SESSION['name'] = $name;
     $_SESSION['fname'] = $fname;
     $_SESSION['email'] = $email;
