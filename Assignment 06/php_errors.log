@@ -1,0 +1,2084 @@
+[18-Jul-2025 05:54:06 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir Shahzad, email=23pwcse2243@uetpeshawar.edu.pk, message=h
+[18-Jul-2025 05:57:32 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir, email=23pwcse2243@uetpeshawar.edu.pk, message=hii
+[18-Jul-2025 06:20:46 Europe/Berlin] Create/Update Input: action=create, userId=, name=Umer Shahzad, fname=Tahir, email=umer@gmail.com, message=hi
+[18-Jul-2025 06:24:31 Europe/Berlin] Create/Update Input: action=create, userId=, name=Umer Shahzad, fname=Tahir, email=umer@gmail.com, message=hi
+[18-Jul-2025 06:34:31 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir Shahzad, email=tayyaba@gmail.com, message=hy
+[18-Jul-2025 06:40:09 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:40:09 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:22 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Tayyaba Rani
+    [fname] => Tahir
+    [email] => 23pwcse2243@uetpeshawar.edu.pk
+    [message] => sa
+)
+ | Method: POST
+[18-Jul-2025 06:40:22 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:22 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir, email=23pwcse2243@uetpeshawar.edu.pk, message=sa
+[18-Jul-2025 06:40:26 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:40:26 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:41 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 39
+)
+ | Method: POST
+[18-Jul-2025 06:40:41 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:41 Europe/Berlin] Delete ID: 39
+[18-Jul-2025 06:40:43 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:40:44 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:47 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:40:47 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:58 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Umer Shahzad
+    [fname] => Tahir
+    [email] => 23pwcse2243@uetpeshawar.edu.pk
+    [message] => s
+)
+ | Method: POST
+[18-Jul-2025 06:40:58 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:40:58 Europe/Berlin] Create/Update Input: action=create, userId=, name=Umer Shahzad, fname=Tahir, email=23pwcse2243@uetpeshawar.edu.pk, message=s
+[18-Jul-2025 06:40:59 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:40:59 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:41:09 Europe/Berlin] Request: Array
+(
+    [action] => edit
+    [id] => 43
+)
+ | Method: POST
+[18-Jul-2025 06:41:09 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:41:09 Europe/Berlin] Edit ID: 43
+[18-Jul-2025 06:41:09 Europe/Berlin] Edit User Data: Array
+(
+    [id] => 43
+    [name] => Umer Shahzad
+    [fname] => Tahir
+    [email] => umer@gmail.com
+    [message] => hi
+)
+
+[18-Jul-2025 06:41:13 Europe/Berlin] Request: Array
+(
+    [action] => update
+    [userId] => 43
+    [name] => Umer Shahzad
+    [fname] => Tahir
+    [email] => umer@gmail.com
+    [message] => hi
+)
+ | Method: POST
+[18-Jul-2025 06:41:13 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:41:13 Europe/Berlin] Create/Update Input: action=update, userId=43, name=Umer Shahzad, fname=Tahir, email=umer@gmail.com, message=hi
+[18-Jul-2025 06:41:15 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:41:15 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:41:20 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 43
+)
+ | Method: POST
+[18-Jul-2025 06:41:20 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:41:20 Europe/Berlin] Delete ID: 43
+[18-Jul-2025 06:41:22 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:41:22 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:43:50 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:43:50 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:43:50 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:44:02 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Tayyaba Rani
+    [fname] => Tahir Shahzad
+    [email] => 23pwcse2243@uetpeshawar.edu.pk
+    [message] => dd
+)
+ | Method: POST
+[18-Jul-2025 06:44:02 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:44:02 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir Shahzad, email=23pwcse2243@uetpeshawar.edu.pk, message=dd
+[18-Jul-2025 06:44:04 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:44:04 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:44:04 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:44:10 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 44
+)
+ | Method: POST
+[18-Jul-2025 06:44:10 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:44:10 Europe/Berlin] Delete ID: 44
+[18-Jul-2025 06:44:11 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:44:11 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:44:11 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:45:37 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:45:37 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:45:37 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:45:37 Europe/Berlin] Number of rows: 5
+[18-Jul-2025 06:45:52 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Tayyaba Rani
+    [fname] => Tahir Shahzad
+    [email] => 23pwcse2243@uetpeshawar.edu.pk
+    [message] => fd
+)
+ | Method: POST
+[18-Jul-2025 06:45:52 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:45:52 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir Shahzad, email=23pwcse2243@uetpeshawar.edu.pk, message=fd
+[18-Jul-2025 06:45:54 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:45:54 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:45:54 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:45:54 Europe/Berlin] Number of rows: 6
+[18-Jul-2025 06:46:08 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 45
+)
+ | Method: POST
+[18-Jul-2025 06:46:08 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:46:08 Europe/Berlin] Delete ID: 45
+[18-Jul-2025 06:46:09 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:46:09 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:46:09 Europe/Berlin] Loading users: GET request
+[18-Jul-2025 06:46:09 Europe/Berlin] Number of rows: 5
+[18-Jul-2025 06:48:38 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:48:38 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:48:38 Europe/Berlin] Loading users: GET request, Connection ID: 277
+[18-Jul-2025 06:48:38 Europe/Berlin] Number of rows: 5, Connection ID: 277
+[18-Jul-2025 06:48:54 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Umer Shahzad
+    [fname] => Tahir Shahzad
+    [email] => 23pwcse2243@uetpeshawar.edu.pk
+    [message] => sa
+)
+ | Method: POST
+[18-Jul-2025 06:48:54 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:48:54 Europe/Berlin] Create/Update Input: action=create, userId=, name=Umer Shahzad, fname=Tahir Shahzad, email=23pwcse2243@uetpeshawar.edu.pk, message=sa
+[18-Jul-2025 06:49:04 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:49:04 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:49:04 Europe/Berlin] Loading users: GET request, Connection ID: 279
+[18-Jul-2025 06:49:04 Europe/Berlin] Number of rows: 6, Connection ID: 279
+[18-Jul-2025 06:49:11 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 48
+)
+ | Method: POST
+[18-Jul-2025 06:49:11 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:49:11 Europe/Berlin] Delete ID: 48
+[18-Jul-2025 06:49:13 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:49:13 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:49:13 Europe/Berlin] Loading users: GET request, Connection ID: 281
+[18-Jul-2025 06:49:13 Europe/Berlin] Number of rows: 5, Connection ID: 281
+[18-Jul-2025 06:53:05 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:53:05 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:53:05 Europe/Berlin] Loading users: GET request, Connection ID: 284
+[18-Jul-2025 06:53:05 Europe/Berlin] Number of rows: 5, Connection ID: 284
+[18-Jul-2025 06:53:23 Europe/Berlin] Request: Array
+(
+    [action] => create
+    [userId] => 
+    [name] => Tayyaba Rani
+    [fname] => Tahir
+    [email] => tayyabatahir168@gmail.com
+    [message] => h
+)
+ | Method: POST
+[18-Jul-2025 06:53:23 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:53:23 Europe/Berlin] Create/Update Input: action=create, userId=, name=Tayyaba Rani, fname=Tahir, email=tayyabatahir168@gmail.com, message=h
+[18-Jul-2025 06:53:26 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:53:26 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:53:26 Europe/Berlin] Loading users: GET request, Connection ID: 286
+[18-Jul-2025 06:53:26 Europe/Berlin] Number of rows: 6, Connection ID: 286
+[18-Jul-2025 06:53:30 Europe/Berlin] Request: Array
+(
+    [action] => delete
+    [id] => 47
+)
+ | Method: POST
+[18-Jul-2025 06:53:30 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:53:30 Europe/Berlin] Delete ID: 47
+[18-Jul-2025 06:53:32 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:53:32 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:53:32 Europe/Berlin] Loading users: GET request, Connection ID: 288
+[18-Jul-2025 06:53:32 Europe/Berlin] Number of rows: 5, Connection ID: 288
+[18-Jul-2025 06:54:56 Europe/Berlin] Request: Array
+(
+)
+ | Method: GET
+[18-Jul-2025 06:54:56 Europe/Berlin] Table contacts columns: Array
+(
+    [0] => Array
+        (
+            [Field] => id
+            [Type] => int(11)
+            [Null] => NO
+            [Key] => PRI
+            [Default] => 
+            [Extra] => auto_increment
+        )
+
+    [1] => Array
+        (
+            [Field] => name
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [2] => Array
+        (
+            [Field] => fname
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [3] => Array
+        (
+            [Field] => email
+            [Type] => varchar(50)
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+    [4] => Array
+        (
+            [Field] => message
+            [Type] => text
+            [Null] => NO
+            [Key] => 
+            [Default] => 
+            [Extra] => 
+        )
+
+)
+
+[18-Jul-2025 06:54:56 Europe/Berlin] Loading users: GET request, Connection ID: 290
+[18-Jul-2025 06:54:56 Europe/Berlin] Number of rows: 5, Connection ID: 290
+[18-Jul-2025 06:54:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Learn_PHP\Assignment 06\data.php:211
+Stack trace:
+#0 C:\xampp\htdocs\Learn_PHP\Assignment 06\data.php(211): mysqli_close(Object(mysqli))
+#1 {main}
+  thrown in C:\xampp\htdocs\Learn_PHP\Assignment 06\data.php on line 211
