@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero bg-hero h-screen bg-cover ">
+        <div class="navbar gap-5 flex bg-none text-white p-5">
+            <h2 class="font-sans font-bold text-2xl text-purple-400">tRaVelS.pK</h2>
+            <div class="mid flex list-none gap-8 ml-80 text-purple-200 text-xl">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li>Contact Us</li>
+            </div>
+            <div class="search ml-20 ">
+                <input class="p-1 rounded-sm bg-purple-200 placeholder-purple-400 text-purple-900" type="text"
+                    placeholder="Type to search">
+                <button class="bg-purple-400 border-purple-400 rounded-sm font-bold  text-white p-1">Search</button>
+            </div>
+        </div>
+        <div class="aero"></div>
+        <div class="discount ml-[990px] mt-[30px] text-white">
+            <p class="text-xl text-purple-200 ml-[10px]">If you Sign Up</p>
+            <h1 class="font-bold mt-3 text-3xl text-purple-400">Discount 30%</h1>
+        </div>
+        <div class="fullbdy flex">
+            <div class="body text-white p-4 ">
+                <h1 class="text-4xl font-bold text-purple-400 mt-20">DisCover tHe WoRld,<br> YOur JournEy BeGins
+                    HeRe</br></h1>
+                <p class="mt-5 text-purple-200">Unveil the beauty of hidden gems, iconic destinations, and breathtaking
+                    landscapes across,<br> the globe. Let your wanderlust take flight as you explore new cultures, savor
+                    authentic experiences,<br> and create memories that last a lifetime.</p>
+                <p class="font-bold text-purple-300"> The world is waiting—where will you go next?</p>
+            </div>
+
+            <!-- Replace your card div with this -->
+            <div class="card rounded-sm bg-purple-300 w-[300px] h-auto mt-20 ml-60 p-5">
+                <h2 class="text-center text-purple-900 font-bold text-2xl mb-4">Sign Up</h2>
+
+                <input
+                    class="w-full mt-2 h-8 px-2 placeholder-purple-600 border-b-2 border-purple-600 bg-transparent text-purple-700"
+                    type="text" name="name" placeholder="Enter Full Name" required><br>
+
+                <input
+                    class="w-full mt-4 h-8 px-2 placeholder-purple-600 border-b-2 border-purple-600 bg-transparent text-purple-700"
+                    type="text" name="username" placeholder="Choose Username" required><br>
+
+                <input
+                    class="w-full mt-4 h-8 px-2 placeholder-purple-600 border-b-2 border-purple-600 bg-transparent text-purple-700"
+                    type="email" name="email" placeholder="Enter Email" required><br>
+
+                <input
+                    class="w-full mt-4 h-8 px-2 placeholder-purple-600 border-b-2 border-purple-600 bg-transparent text-purple-700"
+                    type="password" name="password" placeholder="Enter Password" required><br>
+
+                <input
+                    class="w-full mt-4 h-8 px-2 placeholder-purple-600 border-b-2 border-purple-600 bg-transparent text-purple-700"
+                    type="password" name="confirm_password" placeholder="Confirm Password" required><br>
+
+                <div class="flex justify-center mt-6">
+
+                    <form action="login.php" method="POST" class="w-full text-center">
+
+                        <input type="hidden" name="name" id="form-name">
+                        <input type="hidden" name="username" id="form-username">
+                        <input type="hidden" name="email" id="form-email">
+                        <input type="hidden" name="password" id="form-password">
+                        <input type="hidden" name="confirm_password" id="form-confirm-password">
+                        <button type="submit" class="font-bold text-purple-900 bg-white rounded-sm p-2 w-full">
+                            Sign Up
+                        </button>
+                    </form>
+
+                </div>
+
+                <p class="text-center text-sm mt-4">Already have an account?
+                    <a href="index.html" class="text-purple-800 font-semibold">Login Here</a>
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
