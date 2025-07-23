@@ -1,0 +1,49 @@
+<?php 
+$servername = 'localhost';
+$username = 'root';
+$password = '';
+$dbname = 'form';
+$port = 3307;
+
+$conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+
+$sql = 'CREATE TABLE student (
+    id INT PRIMARY KEY,
+    name VARCHAR(255)
+);';
+mysqli_query($conn, $sql);
+//  Inserting Values into Table 1
+$sql = 'INSERT INTO student (id, name) 
+VALUES 
+(101, "John"),
+(102, "Jane"),
+(103, "Bob"),
+(104, "Alice");
+';
+mysqli_query($conn, $sql);
+
+
+$sql = 'CREATE TABLE course(
+    id INT PRIMARY KEY,
+    course VARCHAR(50)
+);';
+mysqli_query($conn, $sql);
+
+//Inserting data in tabel 2
+$sql = 'INSERT INTO course 
+VALUES
+(102,"English"),
+(104,"Math"),
+(107,"physics")';
+mysqli_query($conn, $sql);
+
+
+$sql = 'SELECT * FROM student 
+INNER JOIN course
+ON student.id = course.id';
+
+$sql = 'SELECT * FROM student 
+LEFT JOIN course
+ON student.id = course.id';
+
+?>
