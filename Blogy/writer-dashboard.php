@@ -11,10 +11,10 @@ $password = '';
 $dbname = 'blog';
 $port = 3307;
 
- $conn =mysqli_connect($servername, $username, $password, $dbname, $port);
- if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
- }
+$conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $title = $_POST['title'];
@@ -38,41 +38,58 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $stmt->execute();
     $msg = "Post submitted for approval!";
 }
-
 ?>
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Writer Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
 </head>
+<body class="bg-light">
 
-<body>
-    <h2>Welcome,
-        <?php echo $_SESSION['name']; ?> (Writer)
-    </h2>
-    <p><a href="logout.php">Logout</a></p>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-bold">Welcome, <?php echo htmlspecialchars($_SESSION['name']); ?> (Writer)</h2>
+            <a href="logout.php" class="btn btn-outline-danger btn-sm">Logout</a>
+        </div>
 
-    <h3>Add New Post</h3>
-    <?php if(!empty($msg)) echo "<p style='color:green'>$msg</p>"; ?>
-    <form method="post" enctype="multipart/form-data">
-        <label>Title:</label><br>
-        <input type="text" name="title" required><br><br>
+        <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Add New Post</h4>
+            </div>
+            <div class="card-body">
+                <?php if(!empty($msg)) echo "<div class='alert alert-success'>$msg</div>"; ?>
 
-        <label>Content:</label><br>
-        <textarea name="content" id="editor" required></textarea><br><br>
-        <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
-        <script>
-            CKEDITOR.replace('editor');
-        </script>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label class="form-label">Title:</label>
+                        <input type="text" name="title" class="form-control" required>
+                    </div>
 
-        <label>Upload Image:</label><br>
-        <input type="file" name="image" accept="image/*" required><br><br>
+                    <div class="mb-3">
+                        <label class="form-label">Content:</label>
+                        <textarea name="content" id="editor" class="form-control" required></textarea>
+                    </div>
 
+                    <div class="mb-3">
+                        <label class="form-label">Upload Image:</label>
+                        <input type="file" name="image" accept="image/*" class="form-control" required>
+                    </div>
 
-        <button type="submit">Submit</button>
-    </form>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

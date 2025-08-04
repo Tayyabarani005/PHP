@@ -113,7 +113,16 @@ $port = 3307;
                 </li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+             <li><a href="contact.html">Contact</a></li>
+            <?php if(isset($_SESSION['user_id'])): ?>
+            <li> <a href="logout.php">Logout (
+                <?php echo $_SESSION['name']; ?>)
+              </a></li>
+            <?php else: ?>
+            <li> <a href="login.php">Login</a></li>
+            <li> <a href="register.php">Register</a></li>
+            <?php endif; ?>
+           
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -121,31 +130,19 @@ $port = 3307;
     </div>
 
 
-    <nav>
-      <?php if(isset($_SESSION['user_id'])): ?>
-      <a href="logout.php">Logout (
-        <?php echo $_SESSION['name']; ?>)
-      </a>
-      <?php else: ?>
-      <a href="login.php">Login</a>
-      <a href="register.php">Register</a>
-      <?php endif; ?>
-    </nav>
-  </header>
+   
+  <section id="latest-posts" class="latest-posts section">
 
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Latest Posts</h2>
+      <div><span>Check Our</span> <span class="description-title">Latest Posts</span></div>
+    </div><!-- End Section Title -->
 
-    <section id="latest-posts" class="latest-posts section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Latest Posts</h2>
-        <div><span>Check Our</span> <span class="description-title">Latest Posts</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-
-          <?php
+        <?php
 $sql = "SELECT posts.*, users.name AS author, users.image AS author_image, categories.category_name 
         FROM posts
         JOIN users ON posts.writer_id = users.user_id
@@ -160,78 +157,78 @@ if ($result->num_rows > 0) {
         // Author image (fallback if not set)
         $authorImage = !empty($row['author_image']) ? $row['author_image'] : 'assets/img/person/default.webp';
 ?>
-          <div class="col-lg-4">
-            <article>
-              <div class="post-img">
-                <img src="<?php echo $row['image_url']; ?>" alt="" class="img-fluid">
+        <div class="col-lg-4">
+          <article>
+            <div class="post-img">
+              <img src="<?php echo $row['image_url']; ?>" alt="" class="img-fluid">
+            </div>
+
+            <p class="post-category">
+              <?php echo $row['category_name']; ?>
+            </p>
+
+            <h2 class="title">
+              <a href="blog-details.php?id=<?php echo $row['post_id']; ?>">
+                <?php echo $row['title']; ?>
+              </a>
+            </h2>
+
+            <div class="d-flex align-items-center">
+              <img src="<?php echo $authorImage; ?>" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">
+                  <?php echo $row['author']; ?>
+                </p>
+                <p class="post-date">
+                  <time datetime="<?php echo date('Y-m-d', strtotime($row['date_posted'])); ?>">
+                    <?php echo date("M d, Y", strtotime($row['date_posted'])); ?>
+                  </time>
+                </p>
               </div>
-
-              <p class="post-category">
-                <?php echo $row['category_name']; ?>
-              </p>
-
-              <h2 class="title">
-                <a href="blog-details.php?id=<?php echo $row['post_id']; ?>">
-                  <?php echo $row['title']; ?>
-                </a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="<?php echo $authorImage; ?>" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">
-                    <?php echo $row['author']; ?>
-                  </p>
-                  <p class="post-date">
-                    <time datetime="<?php echo date('Y-m-d', strtotime($row['date_posted'])); ?>">
-                      <?php echo date("M d, Y", strtotime($row['date_posted'])); ?>
-                    </time>
-                  </p>
-                </div>
-              </div>
-            </article>
-          </div>
-          <?php
+            </div>
+          </article>
+        </div>
+        <?php
     }
 } else {
     echo "<p>No posts available</p>";
 }
 ?>
-        </div>
       </div>
+    </div>
 
-    </section>
+  </section>
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-between align-items-center">
-          <div class="col-lg-6">
-            <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
-              <h2>Subscribe to our newsletter</h2>
-              <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet
-                quam id dui posuere blandit.</p>
-              <form action="forms/newsletter.php" method="post" class="php-email-form cta-form" data-aos="fade-up"
-                data-aos-delay="300">
-                <div class="input-group mb-3">
-                  <input type="email" class="form-control" placeholder="Email address..." aria-label="Email address"
-                    aria-describedby="button-subscribe">
-                  <button class="btn btn-primary" type="submit" id="button-subscribe">Subscribe</button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
-              <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">
-            </div>
+  <!-- Call To Action Section -->
+  <section id="call-to-action" class="call-to-action section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="cta-content" data-aos="fade-up" data-aos-delay="200">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet
+              quam id dui posuere blandit.</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form cta-form" data-aos="fade-up"
+              data-aos-delay="300">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email address..." aria-label="Email address"
+                  aria-describedby="button-subscribe">
+                <button class="btn btn-primary" type="submit" id="button-subscribe">Subscribe</button>
+              </div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
           </div>
         </div>
+        <div class="col-lg-4">
+          <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">
+          </div>
+        </div>
       </div>
-    </section><!-- /Call To Action Section -->
+    </div>
+  </section><!-- /Call To Action Section -->
 
   </main>
 
